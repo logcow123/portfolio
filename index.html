@@ -10,33 +10,37 @@
 
 <body>
     <div class="main-title">
-        <img class="main-img" src="images/title_image.jpg" alt="Background Image of Destiny 2 in the Garden of Salvation">
+        <img class="main-img" src="images/title_image-cropped.jpg" alt="Background Image of Destiny 2 in the Garden of Salvation">
         <h1 class="main-text">RAID GUIDES</h1>
     </div>
-    <header>
-        <img src="images/logo.png" alt="Raid Guides Logo">
+    <header id="navbar">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#raids">Raids</a></li>
-                <li>Contact Us</li>
+                <li><a href="index.html"><img class="nav-logo" src="images/logo.png" alt="Raid Guides Logo"></a></li>
+                <li><a href="index.html" class="link-a">Home</a></li>
+                <li><a href="#raids" class="link-a">Raids</a></li>
+                <li><a href="contactus.html" class="link-a">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-    <div id="raids">
-        <h1>RAIDS</h1>
+    <div id="raids" class="content">
+        <h1 class="raid-text">RAIDS</h1>
         <div class="home-card home-card-one">
-            <a href="deepstone.html">
-                <img src="images/dsc_cover.jpg" alt="Image of Deep Stone Crypt">
-            </a>
-            <div class="bottom-middle">Deep Stone Crypt</div>
+            <div class="img-card">
+                <a href="deepstone.html">
+                    <img src="images/dsc_cover_cropped.jpg" alt="Image of Deep Stone Crypt">
+                </a>
+                <div class="bottom-middle">Deep Stone Crypt</div>
+            </div>
             <p>Learn to take on the Deep Stone Crypt</p>
         </div>
         <div class="home-card home-card-two">
-            <a href="garden.html">
-            <img src="images/gos_cover.jpg" alt="image of the Garde of Salvation">
-            </a>
-            <div class="bottom-middle">Garden of Salvation</div>
+            <div class="img-card">
+                <a href="garden.html">
+                <img src="images/gos_cover_cropped.jpg" alt="image of the Garde of Salvation">
+                </a>
+                <div class="bottom-middle">Garden of Salvation</div>
+            </div>
             <p>Learn to take on the Garden of Salvation</p>
         </div>
     </div>
@@ -46,17 +50,18 @@
         <p>My name is Logan Cowley and I'm a student at BYU-Idaho and this is my first ever personal website! I wanted to make a website that can be used to help others in a game I like to play. Look around and explore my website and if you have any questions for me you can email me at logcow123@gmail.com</p>
     </div>
     <footer>
-        <p> &copy; Logan Cowley - 2024 </p>
         <ul>
-            <li><a href="site-plan.html">Site Plan</a></li>
+            <p class="copy-right"> &copy; Logan Cowley - 2024 </p>
             <li><a href="https://www.instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram image with a link">
             </a></li>
             <li><a href="https://www.facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="facebook image with a link">
             </a></li>
+            <li><a href="site-plan.html" class="foot-a">Site Plan</a></li>
         </ul>
     </footer>
+    <script src="sticky.js"></script>
 </body>
 
 </html>
