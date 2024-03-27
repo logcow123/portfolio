@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raid Guides</title>
+    <title>Raid Guides | Deep Stone Crypt</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <div class="main-title">
-        <img class="main-img" src="images/dsc_cover.jpg" alt="Background Image of Destiny 2 in the Deep Stone Crypt">
+        <img class="main-img" src="images/dsc_cover_cropped_hero.jpg" alt="Background Image of Destiny 2 in the Deep Stone Crypt">
         <h1 class="main-text">Deep Stone Crpyt</h1>
     </div>
     <header id="navbar">
@@ -26,15 +26,60 @@
     <div class="how-to-start content">
         <p>Once you first start the Deep Stone Crypt you will be outside infront of a buidling where you will find fallen inside. Kill all the fallen and it will open a door where you can pull out your sparrow and continue until you find an airock. Once all your teamates arrive, the airlock will open and you can begin traversing the desolate snow area. The main mechanic of this area is, if you are outside the big orange bubble you will get stacks of "Frostbite". Once it reaches 10 stacks you die. The goal is to traverse through these oranges bubbles until you reach the end airlock</p>
         <div class="image-collection">
-            <img src="images/dsc_start_1.jpg" alt="Image of the first checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_2.jpg" alt="Image of the second checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_3.jpg" alt="Image of the third checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_4.jpg" alt="Image of the fourth checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_5.jpg" alt="Image of the fifth checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_5-2.jpg" alt="Image of the fifth checkpoint in Deep stone Crypt oppening part two">
-            <img src="images/dsc_start_6.jpg" alt="Image of the sixth checkpoint in Deep stone Crypt oppening">
-            <img src="images/dsc_start_7.jpg" alt="Image of the final checkpoint in Deep stone Crypt oppening">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img src="images/dsc_start_1.jpg" style="width:100%" alt="Image of the first checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img src="images/dsc_start_2.jpg" style="width:100%" alt="Image of the second checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img src="images/dsc_start_3.jpg" style="width:100%" alt="Image of the third checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img src="images/dsc_start_4.jpg" style="width:100%" alt="Image of the fourth checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img src="images/dsc_start_5.jpg" style="width:100%" alt="Image of the fifth checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img src="images/dsc_start_5-2.jpg" style="width:100%" alt="Image of the fifth checkpoint in Deep stone Crypt oppening part two">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img src="images/dsc_start_6.jpg" style="width:100%" alt="Image of the sixth checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img src="images/dsc_start_7.jpg" style="width:100%" alt="Image of the final checkpoint in Deep stone Crypt oppening">
+                <div class="text">Caption Text</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+          </div>
     </div>
     
     <h1>First Encounter</h1>
@@ -61,16 +106,17 @@
     </div>
 
     <footer>
-        <p> &copy; Logan Cowley - 2024 </p>
         <ul>
-            <li><a href="site-plan.html">Site Plan</a></li>
+            <li class="copy-right"><p> &copy; Logan Cowley - 2024 </p></li>
             <li><a href="https://www.instagram.com" target="_blank">
                 <img src="images/instagram.png" alt="instagram image with a link">
             </a></li>
             <li><a href="https://www.facebook.com" target="_blank">
                 <img src="images/facebook.png" alt="facebook image with a link">
             </a></li>
+            <li><a href="site-plan.html" class="foot-a">Site Plan</a></li>
         </ul>
     </footer>
     <script src="sticky.js"></script>
+    <script src="slideshow.js"></script>
 </body>
