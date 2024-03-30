@@ -187,17 +187,34 @@ footer ul li{
 .foot-a:hover{
   background-color: #9A2AEB;
 }
+.how-to-start{
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 50px;
+  column-gap: 50px;
+}
+.instuctions{
+  grid-column: 2 / 3;
+  font-size: 1.2em;
+  background-color: #706551;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px #000;
+}
 
 /* Slideshow container */
 .image-collection {
+  padding-top: 20px;
   max-width: 1000px;
   position: relative;
   margin: auto;
+  grid-column: 3 / 4;
 }
 
 /* Hide the images by default */
 .mySlides {
   display: none;
+  box-shadow: 1px 1px 10px #000;
+  background-color: #706551;
 }
 
 /* Next & previous buttons */
@@ -242,7 +259,7 @@ footer ul li{
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 28px 12px;
   position: absolute;
   top: 0;
 }
@@ -274,6 +291,35 @@ footer ul li{
   to {opacity: 1}
 }
 
+.first-encounter{
+  padding-top: 100px;
+  text-align: center;
+}
+.description{
+  margin: 50px 100px 50px 100px;
+  font-size: 1.5em;
+}
+.guide-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 50px;
+  column-gap: 50px;
+  padding-bottom: 100px;
+}
+.mechanic-collection img{
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #000;
+  transition: transform .5s;
+}
+.mechanic-collection img:hover{
+  transform: scale(1.1);
+}
+.mechanics-box{
+  grid-column: 2 / 3;
+}
+.strategies-box{
+  grid-column: 3 / 4;
+}
 
 #feedback {
     background-color: antiquewhite;
